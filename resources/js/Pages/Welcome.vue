@@ -457,7 +457,7 @@
   
   
       <!-- Feature Section Start -->
-      <div id="feature" class="bg-orange-100">
+      <div id="feature" class="bg-orange-100 py-10">
         <div class="container">
           <div class="flex flex-wrap items-center">
             <div class="w-full lg:w-1/2">
@@ -470,7 +470,7 @@
                 <img src="img/pengarah-syarikat.png" alt="">
               </div> -->
             </div>
-            <div class="w-full lg:w-1/2 lg:pt-20">
+            <div class="w-full lg:w-1/2 lg:pt-10">
               <div class="mb-5 lg:mb-0">
                 <!-- <h2 class="mb-12 section-heading wow fadeInDown text-2xl" data-wow-delay="0.3s">Pengarah Syarikat</h2> -->
                 
