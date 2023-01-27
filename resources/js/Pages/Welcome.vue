@@ -179,7 +179,7 @@
       <!-- Services Section End -->
   
       <!-- Team Section Start -->
-      <section id="team" class="py-24 text-center">
+      <section id="team" class="bg-orange-100 py-24 text-center">
         <div class="container">
           <div class="text-center">
             <h2 class="mb-12 section-heading wow fadeInDown" data-wow-delay="0.3s">Galeri</h2>
