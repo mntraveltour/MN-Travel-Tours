@@ -21,7 +21,7 @@
         <div class="navigation fixed top-0 left-0 w-full z-30 duration-300 bg-white shadow-md">
             <div class="container">
                 <nav class="navbar py-2 navbar-expand-lg flex justify-between items-center relative duration-300">
-                    <a class="navbar-brand w-24 h-18" href="/">
+                    <a class="w-14 h-12 md:w-24 md:h-20 lg:w-24 lg:h-20" href="/">
                       <img src="img/logo.png" alt="Logo">
                     </a>
                     <button class="navbar-toggler focus:outline-none block lg:hidden" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" @click="show_menu = !show_menu">
@@ -30,7 +30,7 @@
                         <span class="toggler-icon"></span>
                     </button>
   
-                    <div class="navbar-collapse lg:block duration-300 shadow absolute top-100 left-0 mt-full bg-white z-20 px-5 py-3 w-full lg:static lg:bg-transparent lg:shadow-none" id="navbarSupportedContent" v-if="show_menu">
+                    <div class="navbar-collapse duration-300 shadow absolute top-100 left-0 mt-full bg-white z-20 px-5 py-3 w-full lg:static lg:bg-transparent lg:shadow-none" :class="show_menu ? '' : 'hidden lg:block'" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto justify-center items-center lg:flex">
                             <li class="nav-item">
                               <a class="page-scroll active" href="#utama">Utama</a>
