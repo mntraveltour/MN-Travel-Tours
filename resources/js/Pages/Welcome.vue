@@ -462,7 +462,7 @@
           <div class="flex flex-wrap items-center">
             <div class="w-full lg:w-1/2">
               <div class="flex flex-wrap justify-center">
-                <div class="w-1/2 h-1/2 sm:w-1/2  px-4">
+                <div class="w-[150px] h-2/3 sm:w-1/2">
                   <img src="img/pengarah-syarikat.png" alt="..." class="shadow-lg rounded-full max-w-full h-auto align-middle border-none" />
                 </div>
               </div>
