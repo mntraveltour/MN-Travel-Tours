@@ -21,8 +21,8 @@
         <div class="navigation fixed top-0 left-0 w-full z-30 duration-300 bg-white shadow-md">
             <div class="container">
                 <nav class="navbar py-2 navbar-expand-lg flex justify-between items-center relative duration-300">
-                    <a class="navbar-brand w-16 h-16" href="/">
-                      <img src="img/logo.jpg" alt="Logo">
+                    <a class="navbar-brand w-24 h-18" href="/">
+                      <img src="img/logo.png" alt="Logo">
                     </a>
                     <button class="navbar-toggler focus:outline-none block lg:hidden" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="toggler-icon"></span>
@@ -38,11 +38,11 @@
                             <li class="nav-item">
                               <a class="page-scroll" href="#services">Perkhidmatan</a>
                             </li>
-                            <li class="nav-item">
+                            <!-- <li class="nav-item">
                               <a class="page-scroll" href="#feature">feature</a>
-                            </li>
+                            </li> -->
                             <li class="nav-item">
-                              <a class="page-scroll" href="#team">Team</a>
+                              <a class="page-scroll" href="#team">Galeri</a>
                             </li>
                             <!-- <li class="nav-item">
                               <a class="page-scroll" href="#testimonial">Testimonial</a>
@@ -66,11 +66,11 @@
       <!-- Header Area wrapper End -->
   
       <!-- Hero Area Start -->
-      <section id="hero-area" class="bg-blue-100 pt-48 pb-10">
+      <section id="hero-area" class="bg-orange-100 pt-48 pb-10">
         <div class="container">
           <div class="flex justify-between">
             <div class="w-full text-center">
-              <h2 class="text-4xl font-bold leading-snug text-gray-700 mb-10 wow fadeInUp" data-wow-delay="1s">ANDA SEDANG MERANCANG PERJALANAN UMRAH UNTUK ANDA, IBU AYAH DAN KELUARGA?
+              <h2 class="text-4xl font-bold leading-snug text-gray-700 mb-10 wow fadeInUp" data-wow-delay="1s">Promosi Harga Istimewa Sempena Tahun Baru
                 <!-- <br class="hidden lg:block"> Built with TailwindCSS -->
             </h2>
               <!-- <div class="text-center mb-10 wow fadeInUp" data-wow-delay="1.2s">
@@ -178,78 +178,11 @@
       </section>
       <!-- Services Section End -->
   
-  
-      <!-- Feature Section Start -->
-      <div id="feature" class="bg-blue-100 py-24">
-        <div class="container">
-          <div class="flex flex-wrap items-center">
-            <div class="w-full lg:w-1/2">
-              <div class="mb-5 lg:mb-0">
-                <h2 class="mb-12 section-heading wow fadeInDown" data-wow-delay="0.3s">Learn More About Us</h2>
-                
-                <div class="flex flex-wrap">
-                  <div class="w-full sm:w-1/2 lg:w-1/2">
-                    <div class="m-3">
-                      <div class="icon text-4xl">
-                        <i class="lni lni-layers"></i>
-                      </div>
-                      <div class="features-content">
-                        <h4 class="feature-title">Built with TailwindCSS</h4>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam tempora quidem vel sint.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="w-full sm:w-1/2 lg:w-1/2">
-                    <div class="m-3">
-                      <div class="icon text-4xl">
-                        <i class="lni lni-gift"></i>
-                      </div>
-                      <div class="features-content">
-                        <h4 class="feature-title">Free to Use</h4>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam tempora quidem vel sint.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="w-full sm:w-1/2 lg:w-1/2">
-                    <div class="m-3">
-                      <div class="icon text-4xl">
-                        <i class="lni lni-laptop-phone"></i>
-                      </div>
-                      <div class="features-content">
-                        <h4 class="feature-title">Fully Responsive</h4>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam tempora quidem vel sint.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="w-full sm:w-1/2 lg:w-1/2">
-                    <div class="m-3">
-                      <div class="icon text-4xl">
-                        <i class="lni lni-leaf"></i>
-                      </div>
-                      <div class="features-content">
-                        <h4 class="feature-title">Easy to Customize</h4>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam tempora quidem vel sint.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="w-full lg:w-1/2">
-              <div class="mx-3 lg:mr-0 lg:ml-3 wow fadeInRight" data-wow-delay="0.3s">
-                <img src="img/feature/img-1.svg" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Feature Section End -->
-  
       <!-- Team Section Start -->
       <section id="team" class="py-24 text-center">
         <div class="container">
           <div class="text-center">
-            <h2 class="mb-12 section-heading wow fadeInDown" data-wow-delay="0.3s">Team kami</h2>
+            <h2 class="mb-12 section-heading wow fadeInDown" data-wow-delay="0.3s">Galeri</h2>
           </div>
           <div class="flex flex-wrap justify-center">
             <!-- Team Item Starts -->
@@ -445,7 +378,7 @@
       <section id="pricing" class="py-24 bg-gray-800">
         <div class="container">
             <div class="text-center">
-              <h2 class="mb-12 section-heading text-white">Pakej Umrah</h2>
+              <h2 class="mb-12 font-semibold text-4xl text-white">Pakej Umrah</h2>
             </div>
             <div class="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:mx-auto lg:max-w-4xl xl:mx-0 xl:max-w-none xl:grid-cols-4">
                 <div v-for="tier in tiers" :key="tier.name" class="divide-y divide-gray-200 bg-white rounded-lg border border-gray-200 shadow-sm">
@@ -521,6 +454,79 @@
         </div>
       </section> -->
       <!-- Subscribe Section End -->
+  
+  
+      <!-- Feature Section Start -->
+      <div id="feature" class="bg-orange-100">
+        <div class="container">
+          <div class="flex flex-wrap items-center">
+            <div class="w-full lg:w-1/2">
+              <div class="mx-3 lg:mr-0 lg:ml-3 wow fadeInRight" data-wow-delay="0.3s">
+                <img src="img/pengarah-syarikat.png" alt="">
+              </div>
+            </div>
+            <div class="w-full lg:w-1/2 lg:pt-20">
+              <div class="mb-5 lg:mb-0">
+                <!-- <h2 class="mb-12 section-heading wow fadeInDown text-2xl" data-wow-delay="0.3s">Pengarah Syarikat</h2> -->
+                
+                <div class="flex flex-wrap">
+                  <div class="w-full sm:w-4/5 lg:w-4/5">
+                    <div class="my-3 space-y-12">
+                      <!-- <div class="icon text-4xl">
+                        <i class="lni lni-layers"></i>
+                      </div> -->
+                      <div class="features-content">
+                        <p class="text-xl text-gray-700"> "Kami menyediakan perkhidmatan yang lengkap dan selesa untuk jemaah umrah atau haji."</p>
+                      </div>
+                      <div class="features-content">
+                        <p class="text-xl text-gray-700"> "Harga yang ditawarkan sangat mampu milik."</p>
+                      </div>
+                    </div>
+                    <div class="mt-10">
+                      <h4 class="text-xl font-bold italic">Mohd Nor Bin Esmin</h4>
+                      <h3 class="mb-12 text-md font-bold italic">Pengarah Syarikat</h3>
+                    </div>
+                  </div>
+                  <!-- <div class="w-full sm:w-1/2 lg:w-1/2">
+                    <div class="m-3">
+                      <div class="icon text-4xl">
+                        <i class="lni lni-gift"></i>
+                      </div>
+                      <div class="features-content">
+                        <h4 class="feature-title">Free to Use</h4>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam tempora quidem vel sint.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-full sm:w-1/2 lg:w-1/2">
+                    <div class="m-3">
+                      <div class="icon text-4xl">
+                        <i class="lni lni-laptop-phone"></i>
+                      </div>
+                      <div class="features-content">
+                        <h4 class="feature-title">Fully Responsive</h4>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam tempora quidem vel sint.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-full sm:w-1/2 lg:w-1/2">
+                    <div class="m-3">
+                      <div class="icon text-4xl">
+                        <i class="lni lni-leaf"></i>
+                      </div>
+                      <div class="features-content">
+                        <h4 class="feature-title">Easy to Customize</h4>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam tempora quidem vel sint.</p>
+                      </div>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Feature Section End -->
   
       <!-- Contact Section Start -->
       <section id="contact" class="py-10">    
@@ -654,17 +660,17 @@
           
                 <ul class="social-icons flex justify-start">
                   <li class="mx-2">
-                    <a href="#"
+                    <a href="https://www.facebook.com/mohdnortravel" target="_blank"
                       class="footer-icon hover:bg-indigo-500">
                       <i class="lni lni-facebook-original" aria-hidden="true"></i>
                     </a>
                   </li>
-                  <li class="mx-2">
+                  <!-- <li class="mx-2">
                     <a href="#"
                       class="footer-icon hover:bg-blue-400">
                       <i class="lni lni-twitter-original" aria-hidden="true"></i>
                     </a>
-                  </li>
+                  </li> -->
                   <li class="mx-2">
                     <a href="https://www.instagram.com/yourmuslimtravel" target="_blank"
                       class="footer-icon hover:bg-red-500">

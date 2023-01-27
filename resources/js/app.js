@@ -5,8 +5,8 @@ import '../css/LineIcons.2.0.css';
 import '../css/main.css';
 import '../css/tailwind.css';
 import '../css/tiny-slider.css';
-import './contact-form.js';
-import './wow.js';
+// import './contact-form.js';
+// import './wow.js';
 
 import { createApp, h } from 'vue';
 import { createInertiaApp } from '@inertiajs/vue3';
