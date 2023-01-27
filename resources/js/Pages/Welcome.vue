@@ -24,13 +24,13 @@
                     <a class="navbar-brand w-24 h-18" href="/">
                       <img src="img/logo.png" alt="Logo">
                     </a>
-                    <button class="navbar-toggler focus:outline-none block lg:hidden" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler focus:outline-none block lg:hidden" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" @click="show_menu = !show_menu">
                         <span class="toggler-icon"></span>
                         <span class="toggler-icon"></span>
                         <span class="toggler-icon"></span>
                     </button>
   
-                    <div class="navbar-collapse hidden lg:block duration-300 shadow absolute top-100 left-0 mt-full bg-white z-20 px-5 py-3 w-full lg:static lg:bg-transparent lg:shadow-none" id="navbarSupportedContent">
+                    <div class="navbar-collapse lg:block duration-300 shadow absolute top-100 left-0 mt-full bg-white z-20 px-5 py-3 w-full lg:static lg:bg-transparent lg:shadow-none" id="navbarSupportedContent" v-if="show_menu">
                         <ul class="navbar-nav mr-auto justify-center items-center lg:flex">
                             <li class="nav-item">
                               <a class="page-scroll active" href="#utama">Utama</a>
@@ -770,6 +770,7 @@ export default{
     },
     data() {
         return {
+            show_menu: false,
             carousel_images: [
                 '<img src="https://picsum.photos/seed/picsum/1920/300">',
                 '<img src="https://picsum.photos/seed/picsum/1920/300">',
