@@ -21,7 +21,7 @@
         <div class="navigation fixed top-0 left-0 w-full z-30 duration-300 bg-white shadow-md">
             <div class="container">
                 <nav class="navbar py-2 navbar-expand-lg flex justify-between items-center relative duration-300">
-                    <a class="w-14 h-12 md:w-24 md:h-20 lg:w-24 lg:h-20" href="/">
+                    <a class="w-14 h-14 md:w-24 md:h-20 lg:w-24 lg:h-20" href="/">
                       <img src="img/logo.png" alt="Logo">
                     </a>
                     <button class="navbar-toggler focus:outline-none block lg:hidden" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" @click="show_menu = !show_menu">
