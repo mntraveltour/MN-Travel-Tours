@@ -33,25 +33,25 @@
                     <div class="navbar-collapse hidden lg:block duration-300 shadow absolute top-100 left-0 mt-full bg-white z-20 px-5 py-3 w-full lg:static lg:bg-transparent lg:shadow-none" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto justify-center items-center lg:flex">
                             <li class="nav-item">
-                              <a class="page-scroll active" href="#hero-area">Utama</a>
+                              <a class="page-scroll active" href="#utama">Utama</a>
                             </li>
                             <li class="nav-item">
-                              <a class="page-scroll" href="#services">Perkhidmatan</a>
+                              <a class="page-scroll" href="#perkhidmatan">Perkhidmatan</a>
                             </li>
                             <!-- <li class="nav-item">
                               <a class="page-scroll" href="#feature">feature</a>
                             </li> -->
                             <li class="nav-item">
-                              <a class="page-scroll" href="#team">Galeri</a>
+                              <a class="page-scroll" href="#galeri">Galeri</a>
                             </li>
                             <!-- <li class="nav-item">
                               <a class="page-scroll" href="#testimonial">Testimonial</a>
                             </li> -->
                             <li class="nav-item">
-                              <a class="page-scroll" href="#pricing">Pakej</a>
+                              <a class="page-scroll" href="#pakej">Pakej</a>
                             </li>
                             <li class="nav-item">
-                              <a class="page-scroll" href="#contact">Hubungi Kami</a>
+                              <a class="page-scroll" href="#hubungi">Hubungi Kami</a>
                             </li>
                         </ul>
                     </div>
@@ -66,7 +66,7 @@
       <!-- Header Area wrapper End -->
   
       <!-- Hero Area Start -->
-      <section id="hero-area" class="bg-orange-100 pt-48 pb-10">
+      <section id="utama" class="bg-orange-100 pt-48 pb-10">
         <div class="container">
           <div class="flex justify-between">
             <div class="w-full text-center">
@@ -90,7 +90,7 @@
       <!-- Hero Area End -->
   
       <!-- Services Section Start -->
-      <section id="services" class="py-24">
+      <section id="perkhidmatan" class="py-24">
         <div class="container">
           <div class="text-center">
             <h2 class="mb-12 section-heading wow fadeInDown" data-wow-delay="0.3s">Perkhidmatan Kami</h2>
@@ -179,7 +179,7 @@
       <!-- Services Section End -->
   
       <!-- Team Section Start -->
-      <section id="team" class="bg-orange-100 py-24 text-center">
+      <section id="galeri" class="bg-orange-100 py-24 text-center">
         <div class="container">
           <div class="text-center">
             <h2 class="mb-12 section-heading wow fadeInDown" data-wow-delay="0.3s">Galeri</h2>
@@ -375,7 +375,7 @@
       <!-- Testimonial Section End -->  
   
       <!-- Pricing section Start --> 
-      <section id="pricing" class="py-24 bg-gray-800">
+      <section id="pakej" class="py-24 bg-gray-800">
         <div class="container">
             <div class="text-center">
               <h2 class="mb-12 font-semibold text-4xl text-white">Pakej Umrah</h2>
@@ -534,7 +534,7 @@
       <!-- Feature Section End -->
   
       <!-- Contact Section Start -->
-      <section id="contact" class="py-10">    
+      <section id="hubungi" class="py-10">    
         <div class="container">
           <div class="text-center">
             <h2 class="mb-12 text-4xl text-gray-700 font-bold tracking-wide wow fadeInDown" data-wow-delay="0.3s">Hubungi Kami</h2>
