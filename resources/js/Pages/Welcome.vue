@@ -461,9 +461,14 @@
         <div class="container">
           <div class="flex flex-wrap items-center">
             <div class="w-full lg:w-1/2">
-              <div class="mx-3 lg:mr-0 lg:ml-3 wow fadeInRight" data-wow-delay="0.3s">
-                <img src="img/pengarah-syarikat.png" alt="">
+              <div class="flex flex-wrap justify-center">
+                <div class="w-1/2 h-1/2 sm:w-1/2  px-4">
+                  <img src="img/pengarah-syarikat.png" alt="..." class="shadow-lg rounded-full max-w-full h-auto align-middle border-none" />
+                </div>
               </div>
+              <!-- <div class="mx-3 lg:mr-0 lg:ml-3 wow fadeInRight" data-wow-delay="0.3s">
+                <img src="img/pengarah-syarikat.png" alt="">
+              </div> -->
             </div>
             <div class="w-full lg:w-1/2 lg:pt-20">
               <div class="mb-5 lg:mb-0">
@@ -483,8 +488,8 @@
                       </div>
                     </div>
                     <div class="mt-10">
-                      <h4 class="text-xl font-bold italic">Mohd Nor Bin Esmin</h4>
-                      <h3 class="mb-12 text-md font-bold italic">Pengarah Syarikat</h3>
+                      <h4 class="text-xl font-bold">Mohd Nor Bin Esmin</h4>
+                      <h3 class="mb-12 text-sm font-semibold italic">Pengarah Syarikat</h3>
                     </div>
                   </div>
                   <!-- <div class="w-full sm:w-1/2 lg:w-1/2">
