@@ -179,13 +179,12 @@
       <!-- Services Section End -->
   
       <!-- Team Section Start -->
-      <section id="galeri" class="bg-orange-100 py-24 text-center">
+      <!-- <section id="galeri" class="bg-orange-100 py-24 text-center">
         <div class="container">
           <div class="text-center">
             <h2 class="mb-12 section-heading wow fadeInDown" data-wow-delay="0.3s">Galeri</h2>
           </div>
           <div class="flex flex-wrap justify-center">
-            <!-- Team Item Starts -->
             <div class="max-w-sm sm:w-1/2 md:w-1/2 lg:w-1/3">
               <div class="team-item">
                 <div class="team-img relative">
@@ -216,8 +215,6 @@
                 </div>
               </div>
             </div>
-            <!-- Team Item Ends -->
-            <!-- Team Item Starts -->
             <div class="max-w-sm sm:w-1/2 md:w-1/2 lg:w-1/3">
               <div class="team-item">
                 <div class="team-img relative">
@@ -249,8 +246,6 @@
                 </div>
               </div>
             </div>
-            <!-- Team Item Ends -->
-            <!-- Team Item Starts -->
             <div class="max-w-sm sm:w-1/2 md:w-1/2 lg:w-1/3">
               <div class="team-item">
                 <div class="team-img relative">
@@ -281,10 +276,9 @@
                 </div>
               </div>
             </div>
-            <!-- Team Item Ends -->
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- Team Section End -->
   
       <!-- Clients Section Start -->
@@ -375,8 +369,8 @@
       <!-- Testimonial Section End -->  
   
       <!-- Pricing section Start --> 
-      <section id="pakej" class="py-24 bg-gray-800">
-        <div class="container">
+      <section id="pakej" class="flex justify-center py-24 bg-gray-800">
+        <div class="flex flex-col w-5/6">
             <div class="text-center">
               <h2 class="mb-12 font-semibold text-4xl text-white">Pakej Umrah</h2>
             </div>
@@ -391,13 +385,18 @@
                         <!-- <a :href="tier.href" class="mt-8 block w-full rounded-md border border-transparent bg-purple-600 py-2 text-center text-sm font-semibold text-white hover:bg-purple-700">Buy {{ tier.name }}</a> -->
                     </div>
                     <div class="px-6 pt-6 pb-8">
-                        <h3 class="text-sm font-medium text-gray-900">Harga Termasuk</h3>
-                        <ul role="list" class="mt-6 space-y-4">
-                        <li v-for="feature in tier.features" :key="feature" class="flex space-x-3">
-                            <CheckIconMini class="h-5 w-5 flex-shrink-0 text-green-500" aria-hidden="true" />
-                            <span class="text-sm text-gray-500">{{ feature }}</span>
-                        </li>
-                        </ul>
+                        <h3 class="text-sm font-bold text-gray-900">Harga Termasuk</h3>
+                        <ol class="mt-6 space-y-4 list-disc">
+                            <li v-for="feature in tier.features" :key="feature" class="flex space-x-3">
+                                
+                                <span class="text-sm text-green-600 font-semibold" >
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="h-5 w-5" viewBox="0 0 16 16">
+                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                                      </svg>
+                                </span>
+                                <span class="text-sm text-gray-800 font-semibold" >{{ feature }}</span>
+                            </li>
+                        </ol>
                     </div>
                 </div>
             </div>
@@ -481,14 +480,11 @@
                         <i class="lni lni-layers"></i>
                       </div> -->
                       <div class="features-content">
-                        <p class="text-xl text-gray-700"> "Kami menyediakan perkhidmatan yang lengkap dan selesa untuk jemaah umrah atau haji."</p>
-                      </div>
-                      <div class="features-content">
-                        <p class="text-xl text-gray-700"> "Harga yang ditawarkan sangat mampu milik."</p>
+                        <p class="text-xl text-gray-700">Berpengalaman menguruskan Jemaah Haji dan Umrah selama 25 tahun. Mempunyai tauliah mengajar agama daripada Majlis Agama Islam Negeri Johor. Sedang mengajar bab Haji dan Umrah serta Sirah Nabi di Masjid serta surau di Negeri Johor. Seringkali diundang juga menyampaikan kursus dan praktikal Haji di sekolah-sekolah Negeri Johor. Serta memberikan kursus intensif secara personal kepada golongan VIP serta orang-orang kenamaan. Beberapa kali menunaikan Haji sebagai pembimbing ibadat Haji kepada Jemaah Haji Malaysia (Muassassah) dan Jemaah Haji Pakej Swasta. Seringkali diundang untuk menyampaikan ‘Slot Lambaian Kaabah’ Radio Malaysia Johor (RMJ FM) dan Radio IKIM serta berlintas langsung dari Masya’ir Hajj oleh TV1.</p>
                       </div>
                     </div>
                     <div class="mt-10">
-                      <h4 class="text-xl font-bold">Mohd Nor Bin Esmin</h4>
+                      <h4 class="text-xl font-bold">Ustaz Tn. Hj. Mohd Nor Bin Esmin</h4>
                       <h3 class="mb-12 text-sm font-semibold italic">Pengarah Syarikat</h3>
                     </div>
                   </div>
@@ -598,8 +594,9 @@
                       <i class="lni lni-phone-set"></i>
                     </div>
                     <p class="pl-3">
-                      <span href="#" class="block">+60 18-278 0566</span>
-                      <span href="#" class="block">+60 12-761 0543</span>
+                        <span href="#" class="block">07 599 9566</span>
+                        <span href="#" class="block">6019 787 9871 (Ustaz Tn. Hj Mohd Nor)</span>
+                        <span href="#" class="block">6018 278 0566 (Alina)</span>
                     </p>
                   </div>
                 </div>
@@ -626,14 +623,18 @@
       <footer id="footer" class="bg-gray-800 py-10">
         <div class="container">
           <div class="flex flex-wrap">
-            <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 wow fadeInUp" data-wow-delay="0.2s">
               <div class="mx-3">
                 <div class="footer-logo mb-3">
                   <!-- <img src="img/logo.svg" alt=""> -->
-                  <span class="text-white text-xl">Mohd Nor Travel & Tours</span>
+                  <span class="text-white text-xl">Mohd Nor Travel & Tours Sdn Bhd</span>
+                  &nbsp;
+                  <span class="text-white text-md">(1047869)</span>
                 </div>
                 <div class="footer-logo mb-3">
                   <span class="text-white text-md">Travel Agency</span>
+                </div>
+                <div class="footer-logo mb-3">
                 </div>
                 <p class="text-gray-300">Pelancongan Muslim (Outbound & Inbound)
                     Umrah & Badal Haji</p>
@@ -711,51 +712,56 @@ import { Head, Link } from '@inertiajs/vue3';
 
 const tiers = [
   {
-    name: 'Pakej Umrah A',
+    name: 'Umrah Terpimpin',
     // href: '#',
-    priceMonthly: 7000,
-    description: 'Serendah',
+    priceMonthly: '8,900',
+    // description: 'Serendah',
     features: [
-        'Pengurusan Visa Umrah',
-        'Sling Beg & Stretchable Luggage Cover',
-        'Penginapan Hotel di Mekah dan Madinah',
-        'Insuran Takaful Berkelompok'
+        'Bimbingan ibadat sempurna dan tersusun',
+        'Menawarkan kursus umrah terpimpin sebanyak 5 kali termasuk praktikal',
+        'Menawarkan bilik seminar penghawa dingin dan kondusif untuk kursus',
+        'Menggunakan pakej penerbangan MAS ataupun Saudi Airline',
+        '12 hari 11 malam',
+        'Menaja bag bagasi / hand luggage, bag sandang percuma, uncang kasut, buku panduan umrah',
+        'Air zam-zam 5 liter (atas keizinan Arab Saudi)',
     ],
   },
   {
-    name: 'Pakej Umrah B',
+    name: 'Haji Swasta',
     // href: '#',
-    priceMonthly: 8000,
-    description: 'Serendah',
+    priceMonthly: '58,000',
+    // description: 'Serendah',
     features: [
-        'Pengurusan Visa Umrah',
-        'Sling Beg & Stretchable Luggage Cover',
-        'Penginapan Hotel di Mekah dan Madinah',
-        'Insuran Takaful Berkelompok'
+        'Ejen Pakej Haji Swasta yang diiktiraf dan mendapat lesen untuk mengelola, jamaah Haji oleh Tabung Haji',
+        'Bimbingan ibadat sempurna dan tersusun',
+        'Menawarkan kursus diberikan sebanyak 3 kali secara intensif termasuk praktikal (bahan-bahan kursus disediakan)',
+        'Menawarkan bilik seminar penghawa dingin dan kondusif untuk kursus',
+        'Menaja bag bagasi / hand luggage, bag sandang percuma, uncang kasut, buku panduan Haji',
+        '40 hari',
+        'Menggunakan pakej penerbangan MAS ataupun Saudi Airline',
+        'Air zam-zam 5 liter (atas keizinan Arab Saudi)',
+        'Penerbangan mas atau saudi',
     ],
   },
   {
-    name: 'Pakej Umrah C',
+    name: 'Badal Haji',
     // href: '#',
-    priceMonthly: 9000,
-    description: 'Serendah',
+    priceMonthly: '3,000',
+    // description: 'Serendah',
     features: [
-        'Pengurusan Visa Umrah',
-        'Sling Beg & Stretchable Luggage Cover',
-        'Penginapan Hotel di Mekah dan Madinah',
-        'Insuran Takaful Berkelompok'
+        'Menyediakan perkhidmatan bagi melaksanakan badal Haji bagi orang yang telah meninggal dunia, orang yang uzur atau berpenyakit kronik',
+        'Barangan cenderahati kepada waris seperti sijil badal haji (dari mekah)',
+        'Sejadah, serban/tudung, kurma ajwa, minyak wangi, tasbih, dan air zam-zam 5 liter (atas keizinan Arab Saudi)',
     ],
   },
   {
-    name: 'Pakej Umrah D',
+    name: 'Pelancongan Muslim',
     // href: '#',
-    priceMonthly: 10000,
-    description: 'Serendah',
+    priceMonthly: '~',
+    // description: 'Serendah',
     features: [
-        'Pengurusan Visa Umrah',
-        'Sling Beg & Stretchable Luggage Cover',
-        'Penginapan Hotel di Mekah dan Madinah',
-        'Insuran Takaful Berkelompok'
+        'Menawarkan pekej pelancongan muslim yang mesra ibadat dan berkait dengan sirah/sejarah islam',
+        'Menawarkan pakej pelancongan ke seluruh negara dan dalam negeri.',
     ],
   },
 ]
