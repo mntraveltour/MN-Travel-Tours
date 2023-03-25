@@ -16,6 +16,7 @@
         <link rel="stylesheet" type="text/css" href="{{asset('css/animate.css')}}">
         <!-- Tiny Slider  -->
         <link rel="stylesheet" type="text/css" href="{{asset('css/tailwind.css')}}">
+        
 
         <!-- Scripts -->
         @routes
@@ -26,5 +27,3 @@
         @inertia
     </body>
 </html>
-<script src="{{asset('js/wow.js')}}"></script>
-<script src="{{asset('js/contact-form.js')}}"></script>
