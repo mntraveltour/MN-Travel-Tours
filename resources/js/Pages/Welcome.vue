@@ -395,8 +395,8 @@ export default{
 		}
 	},
 	created(){
-		for (let i = 57; i < 87; i++) {
-			this.carousel_images.push('<img src="/storage/img ('+i+').jpg">')
+		for (let i = 57; i < 68; i++) {
+			this.carousel_images.push('<img src="/storage/img ('+i+').JPG">')
 		}
 	}
 }
