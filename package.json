@@ -19,6 +19,8 @@
         "vue": "^3.2.45"
     },
     "dependencies": {
-        "bootstrap-icons": "^1.10.3"
+        "bootstrap-icons": "^1.10.3",
+        "lingallery": "^1.3.7",
+        "vue-light-gallery": "^1.0.1"
     }
 }
