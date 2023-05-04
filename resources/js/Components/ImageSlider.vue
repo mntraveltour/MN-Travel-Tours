@@ -4,7 +4,7 @@
             <div :style="{width: progressBar + '%' }"></div>
         </div>
         <div class="card-img">
-            <img :src="currentImage" alt="">
+            <img :src="currentImage" alt="" class="md:w-1/3">
             <div class="actions">
                 <span @click="prevImage" class="prev">
                     &#8249;
@@ -195,6 +195,7 @@ export default {
 .card-img > img {
     display: block;
     margin: 0 auto;
+    width: 
 }
 
 .actions {

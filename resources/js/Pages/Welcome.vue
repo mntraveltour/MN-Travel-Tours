@@ -48,22 +48,26 @@ min-height: 10rem;
         </div>
     </div>
     <section ref="utama" class="relative h-screen md:pt-[6rem]">
-        <img class="w-full h-full object-cover" src="https://picsum.photos/1920/1080" alt="Image description">
-        <div class="absolute inset-0 flex flex-col items-center space-y-4 justify-center p-[60px] md:p-0">
-            <h2 class="text-4xl font-bold text-black mb-4">Mohd Nor Travel & Tours</h2>
-            <h1 class="text-3xl lg:text-3xl md:text-3xl">Anda sedang mencari agensi perlancongan?</h1>
-            <a href="https://wa.me/60197879871" class="space-x-2 inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-full bg-green-500 hover:bg-green-600 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-                    <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
-                </svg>
-                <span>Whatsapp Kami</span>
-            </a>
+        <img class="w-full h-full object-cover" src="storage/main.jpg" alt="Image description">
+        <div class="absolute inset-0 md:flex md:flex-col md:items-center space-y-4 justify-center md:justify-start md:pt-60 py-28 px-6 md:p-0 md:space-y-6">
+            <!-- <div class=" flex flex-col items-center space-y-4 justify-center p-6 bg-green-200 rounded-lg"> -->
+                    <div class=" text-3xl md:text-7xl font-bold text-white uppercase font-mono tracking-wide">Mohd Nor Travel & Tours</div>
+                    <div class="text-xl md:text-2xl font-bold tracking-wide text-orange-300">Anda sedang mencari agensi perlancongan?</div>
+                    <div class="flex justify-center pt-5 md:pt-0">
+                        <a href="https://wa.me/60197879871" class="space-x-2 inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-full bg-green-500 hover:bg-green-600 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                            </svg>
+                            <span>Whatsapp Kami</span>
+                        </a>
+                    </div>
+            <!-- </div> -->
         </div>
     </section>
     <section ref="galeri" class="flex justify-center items-center bg-orange-100 h-1/3 p-[4rem]">
         <ImageSlider :images="images" :auto-slide-interval="5000"></ImageSlider>
     </section>
-    <section ref="pakej" class="flex justify-center items-center bg-gray-800 h-1/3 p-[4rem]">
+    <section ref="pakej" class="flex justify-center items-center bg-gray-800 h-1/3 py-[4rem]">
         <div class="flex flex-col w-5/6">
             <div class="text-center">
             <h2 class="mb-12 font-bold text-4xl text-white">Kami Menawarkan Pakej</h2>
@@ -94,7 +98,7 @@ min-height: 10rem;
     </section>
     <section ref="latar_belakang" class="flex justify-center items-center bg-orange-100 h-1/4 p-[3rem]">
         <div class="container">
-            <div class="flex items-center">
+            <div class="flex flex-col md:flex-row items-center">
                 <div class="w-full lg:w-1/2">
                     <div class="flex flex-wrap justify-center">
                         <div class="w-[150px] h-2/3 sm:w-1/2">
@@ -125,28 +129,30 @@ min-height: 10rem;
     </section>
     <section ref="hubungi_kami" class="bg-gray-800 py-10 pt-10 md:pt-[8rem]">
         <div class="container">
-            <div class="flex flex-wrap">
+            <div class="flex flex-wrap space-y-10 md:space-y-0">
                 <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="mx-3">
                         <h3 class="font-bold text-xl text-white mb-5">Hubungi Kami</h3>
 
 
-                        <div class="flex flex-wrap mb-2 items-center">
-                            <div class="contact-icon">
-                            <i class="lni lni-map-marker"></i>
+                        <div class="flex mb-2 items-center">
+                            <div class="flex-none contact-icon">
+                                <i class="lni lni-map-marker"></i>
                             </div>
-                            <p class="pl-3 text-white">No. 2927A, Jalan Merbau 3, Bandar Putra, 81000, Kulai, Johor</p>
+                            <div class="flex flex-wrap">
+                                <p class="pl-3 text-white whitespace-normal">No. 2927A, Jalan Merbau 3, Bandar Putra, 81000, Kulai, Johor</p>
+                            </div>
                         </div>
 
-                        <div class="flex flex-wrap mb-2 items-center">
-                            <div class="contact-icon">
+                        <div class="flex mb-2 items-center">
+                            <div class="flex-none contact-icon">
                             <i class="lni lni-envelope"></i>
                             </div>
                             <p class="pl-3 text-white">yourmuslimtravel@gmail.com</p>
                         </div>
 
-                        <div class="flex flex-wrap mb-2 items-center">
-                            <div class="contact-icon">
+                        <div class="flex mb-2 items-center">
+                            <div class="flex-none contact-icon">
                             <i class="lni lni-phone-set"></i>
                             </div>
                             <p class="pl-3 text-white">+07 599 9566</p>
@@ -264,13 +270,28 @@ export default{
 			show_menu: false,
             images: [{ 
                 id: '1',
-                big: 'https://picsum.photos/200/300',
-                thumb: 'https://picsum.photos/200/300'
+                big: 'storage/gallery_1.jpg',
+                thumb: 'storage/gallery_1.jpg'
             },
             { 
                 id: '2',
-                big: 'https://picsum.photos/200/400',
-                thumb: 'https://picsum.photos/200/400'
+                big: '/storage/gallery_2.jpg',
+                thumb: '/storage/gallery_2.jpg'
+            },
+            { 
+                id: '3',
+                big: '/storage/gallery_3.jpg',
+                thumb: '/storage/gallery_3.jpg'
+            },
+            { 
+                id: '4',
+                big: '/storage/gallery_4.jpg',
+                thumb: '/storage/gallery_4.jpg'
+            },
+            { 
+                id: '5',
+                big: '/storage/gallery_5.jpg',
+                thumb: '/storage/gallery_5.jpg'
             }]
         }
 	},
