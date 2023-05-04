@@ -65,7 +65,10 @@ min-height: 10rem;
         </div>
     </section>
     <section ref="galeri" class="flex justify-center items-center bg-orange-100 h-1/3 p-[4rem]">
-        <ImageSlider :images="images" :auto-slide-interval="5000"></ImageSlider>
+        <div class="flex flex-col justify-center items-center">
+            <h2 class="mb-12 font-bold text-4xl text-gray-700">Galeri</h2>
+            <ImageSlider :images="images" :auto-slide-interval="5000"></ImageSlider>
+        </div>
     </section>
     <section ref="pakej" class="flex justify-center items-center bg-gray-800 h-1/3 py-[4rem]">
         <div class="flex flex-col w-5/6">
